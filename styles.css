@@ -1,0 +1,65 @@
+body {
+    background: rgb(18, 0, 36);
+    background: -moz-linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
+    background: -webkit-linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
+    background: linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#120024", endColorstr="#240ad6", GradientType=1);
+}
+
+div.main {
+    width: 75%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+
+div.picture {
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+div.picture img {
+    border-radius: 100%;
+}
+
+button.share {
+    align-self: flex-start;
+    border: none;
+    background-color: rgba(153, 16, 195, 0.221);
+    border-radius: 40%;
+}
+
+div.social_icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+div.social_icons ul li {
+    margin: 5px;
+}
+
+div.social_icons ul li a {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-decoration: none;
+    background-color: #ffffff;
+}
