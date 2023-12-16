@@ -1,9 +1,5 @@
 body {
-    background: rgb(18, 0, 36);
-    background: -moz-linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
-    background: -webkit-linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
-    background: linear-gradient(111deg, rgba(18, 0, 36, 1) 0%, rgba(92, 23, 141, 1) 0%, rgba(36, 10, 214, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#120024", endColorstr="#240ad6", GradientType=1);
+    background: purple;
 }
 
 div.main {
@@ -55,11 +51,26 @@ div.social_icons ul li {
 }
 
 div.social_icons ul li a {
-    padding: 12px;
+    padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
     text-decoration: none;
     background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    div.picture img {
+        width: 40%;
+    }
+
+    div.social_icons ul li a {
+        padding: 4px !important;
+    }
+
+    div.social_icons ul li a {
+        width: 10px !important;
+        height: 10px !important;
+    }
 }
